@@ -12,7 +12,7 @@ declare module '@vue/runtime-core' {
     Footer: typeof import('./components/Footer.vue')['default']
     HeroCard: typeof import('./components/HeroCard/HeroCard.vue')['default']
     HeroImage: typeof import('./components/HeroCard/HeroImage.vue')['default']
-    HeroStats: typeof import('./components/HeroStats.vue')['default']
+    HeroStats: typeof import('./components/HeroCard/HeroStats.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

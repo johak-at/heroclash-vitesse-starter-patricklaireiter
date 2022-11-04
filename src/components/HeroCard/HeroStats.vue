@@ -4,8 +4,6 @@ const props = defineProps(['name', 'stats', 'alignment'])
 
 <template>
   <h1>{{ name }}</h1>
-
-  <!-- iteriere mit v-for über die stats -->
 </template>
 
 <style>
