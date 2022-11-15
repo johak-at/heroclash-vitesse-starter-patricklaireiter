@@ -13,10 +13,14 @@ const props = defineProps(['name', 'stats', 'alignment'])
  *{border: 1px solid red}
 
  .bad{
-  background-color: red;
+  background-image: linear-gradient(135deg, #f12711, #f5af19);
  }
 
  .good{
-  background-color: green;
+  background-image: linear-gradient(135deg, teal, pink);
+ }
+
+ .neutral{
+  background-image: linear-gradient(135deg, #f12711, #f5af19);
  }
 </style>
