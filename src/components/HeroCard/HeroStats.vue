@@ -17,6 +17,6 @@ const props = defineProps(['name', 'stats', 'alignment'])
  }
 
  .good{
-  background-color: green;
+  background-color: yellow;
  }
 </style>
